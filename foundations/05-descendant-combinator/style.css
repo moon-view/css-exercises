@@ -1,0 +1,11 @@
+.container .text {
+    font-weight: 900;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container p {
+    color: violet;
+}
+
+/* same specificity, declared last is adopted */
