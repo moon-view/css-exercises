@@ -1,0 +1,22 @@
+/* chaining selector create new properties:value pair, unique. */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+.original {
+    height: auto;
+}
+
+.proportioned {
+    width: auto;
+}
+
+.distorted {
+    height: 400px;
+}
