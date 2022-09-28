@@ -1,5 +1,5 @@
-body{
-  font-family:Arial, Helvetica, sans-serif
+body {
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .para,
@@ -8,20 +8,24 @@ body{
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
+
+/* use chaining selector */
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button.confirm {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
+
+/* use chaining selector */
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,14 +33,20 @@ body{
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
+div .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+
+/* div.text (chaining) vs div .child(descendant)
+Here is same level of specificity, declared last is winner */
